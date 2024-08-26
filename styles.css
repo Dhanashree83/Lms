@@ -104,6 +104,7 @@ nav ul {
      /* <=================HERO-SECTION======================> */
 #hero-section{
   background-color: rgb(214, 160, 214);
+  /* background: linear-gradient(rgb(214, 160, 214),rgba(59, 26, 59, 0.93)); */
   /* background: linear-gradient( rgb(214, 160, 214), rgba(46, 20, 46, 0.814)); */
     height: 100vh;
     display: flex;
@@ -285,9 +286,10 @@ p{
   transition: 0.7s;
 }
 
-/* .container .card .two{
-  background-image: ;
-} */
+.container .card .two{
+  background-image: url('imgs/offline-img.jpg');
+  background-size: cover;
+}
 .container .card:hover .img{
   top: -100px;
   scale: 0.70;
@@ -755,7 +757,7 @@ body {
     text-align: center;
     padding: 20px 0;
     /* background-color: #001d30; */
-    background-image: url('footer-bottom-img.jpg');
+    background-image: url('imgs/footer-bottom-img.jpg');
     background-size: cover;
     box-shadow: 20px 20px 60px black;
   }
