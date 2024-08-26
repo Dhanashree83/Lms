@@ -169,6 +169,7 @@ nav ul {
    width: 35vw;
    height: 55vh;
    filter: drop-shadow(2px 2px 5px rgba(84, 15, 84, 0.551));
+   /* background: transparent; */
 }
 
 .hero-img img:hover{
@@ -277,12 +278,16 @@ p{
   height: 290px;
   width: 300px;
   /* background: rgb(24, 23, 23); */
-  background-image: url(card-img.jpg);
+  background-image: url(imgs/online-img.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 30px;
   transition: 0.7s;
 }
+
+/* .container .card .two{
+  background-image: ;
+} */
 .container .card:hover .img{
   top: -100px;
   scale: 0.70;
@@ -474,8 +479,9 @@ body {
   padding: 50px 0;
 }
 .ag-courses_item {
-  -ms-flex-preferred-size: calc(33.33333% - 30px);
+  /* -ms-flex-preferred-size: calc(33.33333% - 30px); */
   flex-basis: calc(33.33333% - 30px);
+  height: 30vh;
 
   margin: 0 15px 30px;
 

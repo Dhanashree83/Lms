@@ -61,7 +61,7 @@
 
         <nav id="nav-section">
           <div class="nav_logo">
-              <img src="transparent-logo.png" alt="logo" height="60">
+              <img src="imgs/transparent-logo.png" alt="logo" height="60">
           </div>
           <div class="nav-items">
             <ul>
@@ -91,7 +91,7 @@
             <button>Explore more</button>
           </div> 
           <div class="hero-img">
-            <img src="WhatsApp Image 2024-08-22 at 2.34.12 PM.jpeg" alt="img">
+            <img src="imgs/WhatsApp Image 2024-08-22 at 2.34.12 PM.jpeg " alt="img">
            </div>
         </section>
    </header>
@@ -102,28 +102,30 @@
     <h1>Our services</h1>
     <div class="container">
       <div class="card">
-          <div class="img 1">
+          <div class="img">
           </div>
           <div class="details">
               <h2>ONLINE SESSION</h2>
-              <P>
-              </P>
+              <h6>Join Our Live Online Session!</h6>
+              <P>  
+                Unlock your potential with our interactive online sessions. 
+                  </P>
               <a href="#">Know more</a>
           </div>
       </div>
    
       <div class="card">
-          <div class="img 2"></div>
+          <div class="img" style="background-image: url('imgs\offline-img.jpg');"></div>
           <div class="details">
-              <h2>ONLINE SESSION</h2>
-              <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident eius dolores ratione repellat
-              </P>
+              <h2>OFFLINE SESSION</h2>
+              <h6>Join Our Exclusive Offline Sessions</h6>
+              <P> Enhance your learning experience with our exclusive offline sessions </P>
               <a href="#">Know more</a>
           </div>
       </div>
      
       <div class="card">
-          <div class="img 3"></div>
+          <div class="img"></div>
           <div class="details">
               <h2>ONLINE SESSION</h2>
               <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident eius dolores ratione repellat
@@ -132,7 +134,7 @@
           </div>
         
       </div>
-      <div class="container 1">
+      <div class="container">
           <div class="card">
               <div class="img 4"></div>
               <div class="details">
@@ -162,7 +164,7 @@
    <!-- =============== Advise section==================== -->
    <section id="advice-section">
     <div class="about-card">
-        <img src="premium_photo-1661443554105-0b1bdc879493.avif" alt="img" />
+        <img src="imgs/premium_photo-1661443554105-0b1bdc879493.avif" alt="img" />
         <div>
             <h2 class="title">Here to help you <span>succeed</span></h2>
             <h2>Find your partner</h2>
@@ -345,7 +347,7 @@
     <footer id="footer">
       
         <div class="footer-bottom">
-          <img src="transparent-logo.png" alt="logo" height="60" class="align-center">
+          <img src="imgs/footer-bottom-img.jpg" alt="logo" height="60" class="align-center">
           <p>Empowering educators to improve our world. <a href="#">Donate</a> | <a href="#">Shop</a> | <a href="#">Newsletter sign up</a></p>
           <div class="footer-bottom-links">
             <a href="#">Cookies Policy</a> | <a href="#">Privacy Notice</a> | <a href="#">Trademark Policy</a>
@@ -361,32 +363,5 @@
         </div>
       </footer>
 
-      <script>
-        let slideIndex = 0;
-
-function showSlide(index) {
-    const slides = document.querySelectorAll('.carousel-images img');
-    if (index >= slides.length) {
-        slideIndex = 0;
-    } else if (index < 0) {
-        slideIndex = slides.length - 1;
-    } else {
-        slideIndex = index;
-    }
-    const offset = -slideIndex * 100;
-    document.querySelector('.carousel-images').style.transform = `translateX(${offset}%)`;
-}
-
-function nextSlide() {
-    showSlide(slideIndex + 1);
-}
-
-function prevSlide() {
-    showSlide(slideIndex - 1);
-}
-
-showSlide(slideIndex);
-      </script>
-
-</body>
+      </body>
 </html
