@@ -179,76 +179,13 @@ nav ul {
 }
 
 /* =========================Advise section============================== */
-/* #advice-section{
-  background:transparent;
-  color: rgb(215, 213, 213);
-  background-color: rgb(75, 75, 109);
-  margin-top: 10px;
-}
-.about-card{
-  display:flex ;
-  align-items: center;
-  width: 75vw;
-  width: 350px;
-  padding: 50px 30px 50px 20px;
-  margin: 0px 0 0 80px;
-  background-color:rgb(211, 193, 227);
-  border-radius: 24px;
-
-}
-.about-card img{
-  max-width: 280px;
-  width: 35vw;
-  height: 300px;
-  object-fit: cover;
-  margin: 0px 30px 0px 50%;
-  border-radius: inherit;
-  box-shadow: 0 60px 40px rgb(0, 0,8%); */
-  /* transform: translateX(20px) rotate(30deg); */
-  /* transform: rotate(0.3turn); */
-/* }
-.about-card h2{
-  font-size: 26px;
-  font-weight: 400;
-  margin-top: 0;
-  margin-right: 30px;
-  margin-bottom: 10px;
-}
-.about-card h3{
-  font-size: 16px;
-  font-weight: 400;
-  margin: 0;
-  opacity: 0.75;
-}
-.about-card p{
-  font-size: 14px;
-  font-weight: 400;
-  margin-bottom: 30;
-  opacity: 0.5;
-}
-.about-card a{
-  display: grid;
-  place-items: center;
-  border: 0;
-  background: #a596cf;
-  padding: 16px 26px;
-  font-size: 16px;
-  border-radius: 40px;
-  width: 200px;
-  margin-top: 10px;
-}
-.title {
-  font-size: 2.5rem;
-  font-weight: 400;
-  line-height: 3rem;
-  color: var(--text-dark); 
-  margin-bottom: 1rem;
-  color: palevioletred;
-}
- */
  #advice-section{
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   /* background:transparent; */
-  color: rgb(215, 213, 213);
+  color: rgb(216, 103, 103);
   background-color: rgb(75, 75, 109);
   margin-top: 10px;
 }
@@ -256,8 +193,9 @@ nav ul {
 .about-card{
   display:flex ;
   align-items: center;
-  width: 75vw;
-  width: 350px;
+  /* width: 75vw; */
+  width: 1000px;
+  height: 400px;
   padding: 50px 30px 50px 20px;
   margin: 0px 0 0 80px;
   background-color:rgb(211, 193, 227);
@@ -270,7 +208,7 @@ nav ul {
   width: 35vw;
   height: 300px;
   object-fit: cover;
-  margin: 0px 30px 0px 50%;
+  margin: 0px 30px 0px -80px;
   border-radius: inherit;
   box-shadow: 0 60px 40px rgb(0, 0,8%);
   /* transform: translateX(20px) rotate(30deg); */
@@ -278,7 +216,7 @@ nav ul {
 }
 
 .about-card h2{
-  font-size: 26px;
+  /* font-size: 26px; */
   font-weight: 400;
   margin-top: 0;
   margin-right: 30px;
@@ -286,7 +224,7 @@ nav ul {
 }
 
 .about-card h3{
-  font-size: 16px;
+  /* font-size: 16px; */
   font-weight: 400;
   margin: 0;
   opacity: 0.75;
@@ -297,19 +235,27 @@ nav ul {
   font-weight: 400;
   margin-bottom: 30;
   opacity: 0.5;
+  color: purple;
 }
 
-.about-card a{
+.about-card button{
   display: grid;
   place-items: center;
-  border: 0;
-  background: #a596cf;
-  padding: 16px 26px;
+  border: 3px solid purple;
+  /* background: transparent; */
+  background-color: #da9af0;
+  padding: 10px;
   font-size: 16px;
   border-radius: 40px;
-  width: 200px;
+  width: 180px;
   margin-top: 10px;
   transition: background-color 0.3s ease;
+  /* box-shadow: 0 0 5px cyan, 0 0 25px cyan; */
+  
+}
+
+.about-card button:hover{
+  box-shadow: 0 0 5px rgb(43, 45, 45), 0 0 25px rgb(33, 70, 70),0 0 50px rgba(0, 255, 255, 0.24), 0 0 100px rgba(0, 255, 255, 0.413),0 0 200px rgb(167, 221, 221);
 }
 
 .title {
@@ -318,7 +264,7 @@ nav ul {
   line-height: 3rem;
   color: var(--text-dark); 
   margin-bottom: 1rem;
-  color: palevioletred;
+  color: purple;
 }
 
 /* Media Query for smaller screens */

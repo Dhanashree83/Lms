@@ -84,7 +84,7 @@
     height: 290px;
     width: 300px;
     /* background: rgb(24, 23, 23); */
-    background-image: url(imgs/online-img.jpg);
+    background-image: url('imgs/online-img.jpg');
     background-position: center;
     background-size: cover;
     border-radius: 30px;
