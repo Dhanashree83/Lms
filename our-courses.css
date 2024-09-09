@@ -43,13 +43,21 @@
   .ag-courses_item {
     /* -ms-flex-preferred-size: calc(33.33333% - 30px); */
     flex-basis: calc(33.33333% - 30px);
+<<<<<<< HEAD
     height: 30vh;
+=======
+    height: 35vh;
+>>>>>>> 4deee7b33c2e65a02b9eb9446f5d3fd1b38779ee
   
     margin: 0 15px 30px;
   
     overflow: hidden;
   
+<<<<<<< HEAD
     border-radius: 28px;
+=======
+    border-radius: 28px 28px 28px 28px ;
+>>>>>>> 4deee7b33c2e65a02b9eb9446f5d3fd1b38779ee
   }
   .ag-courses-item_link {
     display: block;
@@ -72,6 +80,10 @@
   }
   .ag-courses-item_title {
     min-height: 87px;
+<<<<<<< HEAD
+=======
+    height: 20vh;
+>>>>>>> 4deee7b33c2e65a02b9eb9446f5d3fd1b38779ee
     margin: 0 0 25px;
   
     overflow: hidden;
